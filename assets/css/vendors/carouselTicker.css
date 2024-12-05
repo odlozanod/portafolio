@@ -1,0 +1,39 @@
+/**
+ * CSS style for carouselTicker
+ **/
+ .carouselTicker__list {
+    display: flex;
+    align-items: center;
+    gap: -10px; /* Reduce la separación horizontal entre los logos */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.carouselTicker__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/**
+ * CSS style for vertical direction
+ **/
+.carouselTicker_vertical .carouselTicker__list {
+    margin: 0;
+}
+.carouselTicker_vertical .carouselTicker__item {
+    margin: 0 0 5px 0;
+    line-height: 60px;
+    text-align: center;
+}
+#carouselTicker .carouselTicker__item,
+#carouselTicker-destructor-example .carouselTicker__item,
+#carouselTicker-buttons-controls-example .carouselTicker__item {
+    width: auto;
+    height: auto;
+    line-height: normal;
+}
+.carouselTicker__item img {
+    vertical-align: top;
+}
